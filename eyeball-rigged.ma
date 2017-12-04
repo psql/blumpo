@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: eyeball-simulated.ma
-//Last modified: Sun, Dec 03, 2017 07:43:13 PM
+//Last modified: Sun, Dec 03, 2017 07:43:41 PM
 //Codeset: UTF-8
 requires maya "2018";
 requires -nodeType "RenderMan" -nodeType "PxrDebugShadingContext" -nodeType "PxrMultiTexture"
@@ -20,15 +20,15 @@ fileInfo "osv" "Mac OS X 10.13.1";
 createNode transform -s -n "persp";
 	rename -uid "BF69EE11-6C4C-AFE0-DC62-219C46770E3A";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -106.38906085950842 93.8679387939832 153.2576222184185 ;
-	setAttr ".r" -type "double3" -26.44997347343725 -33.771371925985875 -9.5654362086411794e-16 ;
+	setAttr ".t" -type "double3" 93.078785608874071 22.007807008735771 25.415706783180696 ;
+	setAttr ".r" -type "double3" -12.049973473437335 73.828628074013693 5.7099212458035535e-15 ;
 	setAttr ".rp" -type "double3" -9.3258734068513149e-15 6.6613381477509392e-16 0 ;
 	setAttr ".rpt" -type "double3" -7.4849654226138026e-14 3.8671337929979115e-14 -1.2905099588857888e-13 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "06253675-4D4E-6400-DB72-08A3C86CF213";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 208.96963008695536;
+	setAttr ".coi" 101.63754707941128;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -1645,7 +1645,7 @@ createNode animCurveTU -n "controls_scaleZ";
 	setAttr ".wgt" no;
 	setAttr ".ktv[0]"  1 1;
 createNode nodeGraphEditorInfo -n "MayaNodeEditorSavedTabsInfo";
-	rename -uid "EED2BE59-A34A-13C6-28F5-6498B53D9E61";
+	rename -uid "01299FDC-F346-E887-0CFC-BC906ACF3913";
 	setAttr ".pee" yes;
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -1177.3809055960387 -198.80951590954345 ;
